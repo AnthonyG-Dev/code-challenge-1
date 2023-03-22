@@ -4,15 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student Grades</title>
+  <title>Code Challenges</title>
   <script src="/index.js"></script>
 </head>
 <body>
   <h1>Code Challenges</h1>
   <!--code challenge 1-->
 
-  <div class="Challenge 1">
-  <p>Please enter student marks (between 0 and 100):</p>
+  <div class="challenge 1">
+  <p>Please Enter Student Marks (between 0 and 100):</p>
+  <!---->
   <input type="number" id="marks" placeholder="Enter Student Marks">
   <button onClick="buttonClicked()">Check Grade</button> 
   
@@ -23,7 +24,7 @@
   
 
   <!--code challenge 2-->
-  <div class = "Challenge 2">
+  <div class = "challenge 2">
     <p>Please Enter Driver's Speed</p>
 <input type="number" id="speed" placeholder="Enter Speed">
   <button onClick="speedButtonClicked()">Check Speed Limit</button> 
@@ -33,25 +34,18 @@
   </div>
 
   <!--code challenge 3-->
-   
-    <div class="challenge-3">
-  <p>Please enter salary and benefits:</p>
-  <input type="number" id="basicSalary" placeholder="Enter basic salary">
-  <input type="number" id="benefits" placeholder="Enter benefits">
-  <button onclick="calculateSalary()">Calculate Salary</button>
+  <div class = "challenge 3">
 
-  <div class="output">
-    <p>Gross Salary: <span id="grossSalary"></span></p>
-    <p>PAYE (Tax): <span id="taxDeduction"></span></p>
-    <p>NHIF Deduction: <span id="nhifDeduction"></span></p>
-    <p>NSSF Deduction: <span id="nssfDeduction"></span></p>
-    <p>Net Salary: <span id="netSalary"></span></p>
-  </div>
-</div>
+    <p>Please Enter Gross Salary</p>
+<input type="number" id="gross-salary" placeholder="Enter Gross Salary">
+  <button onClick="findNetSalary()">Check Net Salary</button> 
 
+  <p id="output" ></p>
+  <textarea name="outputTextArea" id="netSalaryOutput" cols="30" rows="3"></textarea>
   </div>
 
-  
-  
+
+
+
 </body>
 </html>
