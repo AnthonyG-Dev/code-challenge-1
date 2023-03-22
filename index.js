@@ -58,3 +58,5 @@ checkSpeed(70)
   console.log(value);
   checkSpeed(value);
 }
+
+// challenge 3
